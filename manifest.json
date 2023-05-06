@@ -6,6 +6,7 @@
   "UniqueID": "Nordmole.Millnificent",
   "UpdateKeys": [],
   "ContentPackFor": {
-    "UniqueID": "PeacefulEnd.SolidFoundations"
+    "UniqueID": "PeacefulEnd.SolidFoundations",
+    "MinimumVersion": "1.14.2"
   }
 }
