@@ -1,11 +1,11 @@
 {
-  "Name": "Big mill",
-  "Description": "Bigger mill with more output per minute",
+  "Name": "Mill (Smock mill)",
+  "Description": "A historic Dutch mill that allows you to grind wheat, beets and rice",
   "Size": {
     "X": 7,
     "Y": 2
   },
-  "Id": "Nordmole.Millnificent.BigMill",
+  "Id": "Nordmole.Millnificent.Mill",
   "SourceRect": "0 0 112 144",
   "DrawShadow": false,
   "DrawLayers": [
