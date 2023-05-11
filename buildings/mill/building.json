@@ -21,6 +21,22 @@
       "Texture": "sail"
     }
   ],
+  "ActionTiles": [
+    {
+      "Tile": {
+        "X": 3,
+        "Y": 1
+      },
+      "Action": "BuildingChest InputBox"
+    },
+    {
+      "Tile": {
+        "X": 5,
+        "Y": 1
+      },
+      "Action": "BuildingChest OutputBox"
+    }
+  ],
   "Chests": [
     {
       "Name": "InputBox",
@@ -42,5 +58,6 @@
       "InvalidCountMessage": null,
       "Sound": "Shwip"
     }
-  ]
+  ],
+  "ItemConversions": []
 }
