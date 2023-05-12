@@ -59,5 +59,54 @@
       "Sound": "Shwip"
     }
   ],
-  "ItemConversions": []
+  "ItemConversions": [
+    {
+      "RequiredTags": [
+        "id_o_262"
+      ],
+      "SourceChest": "InputBox",
+      "DestinationChest": "OutputBox",
+      "ProducedItems": [
+        {
+          "ItemID": "246",
+          "MinCount": 1,
+          "MaxCount": 1
+        }
+      ],
+      "RequiredCount": 1,
+      "MaxDailyConversions": -1
+    },
+    {
+      "RequiredTags": [
+        "id_o_284"
+      ],
+      "SourceChest": "InputBox",
+      "DestinationChest": "OutputBox",
+      "ProducedItems": [
+        {
+          "ItemID": "245",
+          "MinCount": 3,
+          "MaxCount": 3
+        }
+      ],
+      "RequiredCount": 1,
+      "MaxDailyConversions": -1
+    },
+    {
+      "RequiredTags": [
+        "id_o_271"
+      ],
+      "SourceChest": "InputBox",
+      "DestinationChest": "OutputBox",
+      "ProducedItems": [
+        {
+          "ItemID": "423",
+          "MinCount": 1,
+          "MaxCount": 1
+        }
+      ],
+      "RequiredCount": 1,
+      "MaxDailyConversions": -1
+    }
+  ]
 }
