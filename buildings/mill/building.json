@@ -52,7 +52,7 @@
       "Name": "OutputBox",
       "Type": "Collect",
       "ChestFullMessage": null,
-      "DisplayTile": "4.4, 3.5",
+      "DisplayTile": "5, 1.12",
       "DisplayHeight": 1.5,
       "InvalidItemMessage": null,
       "InvalidCountMessage": null,
