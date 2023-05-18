@@ -20,6 +20,18 @@
       "FrameDuration": 45,
       "FramesPerRow": 4,
       "Texture": "sail"
+    },
+    {
+      "SourceRect": "0 0 18 20",
+      "DrawBehindBase": true,
+      "DrawPosition": {
+        "X": 47,
+        "Y": 77
+      },
+      "FrameCount": 6,
+      "FrameDuration": 190,
+      "FramesPerRow": 3,
+      "Texture": "grinder"
     }
   ],
   "ActionTiles": [
