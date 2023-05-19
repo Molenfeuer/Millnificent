@@ -7,6 +7,22 @@
   },
   "Id": "Nordmole.Millnificent.Mill",
   "SourceRect": "0 0 112 144",
+  "BuildCost": 2500,
+  "BuildDays": 2,
+  "BuildMaterials": [
+    {
+      "ItemID": 388,
+      "Amount": 150
+    },
+    {
+      "ItemID": 390,
+      "Amount": 50
+    },
+    {
+      "ItemID": 428,
+      "Amount": 4
+    }
+  ],
   "CollisionMap": "OOXXXOO\nOOXXXXO",
   "DrawShadow": false,
   "DrawLayers": [
