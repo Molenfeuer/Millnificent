@@ -1,6 +1,6 @@
 {
-  "Name": "Mill (Smock mill)",
-  "Description": "A historic Dutch mill that allows you to grind wheat, beets and rice",
+  "Name": "mill.name",
+  "Description": "mill.description",
   "Size": {
     "X": 7,
     "Y": 2
@@ -80,11 +80,9 @@
     {
       "Name": "InputBox",
       "Type": "Load",
-      "ChestFullMessage": "_chest_full",
       "DisplayTile": "-1, -1",
       "DisplayHeight": 0.0,
-      "InvalidItemMessage": "_invalid_item",
-      "InvalidCountMessage": "_invalid_count",
+      "InvalidItemMessage": "mill.message.invalid_item",
       "Sound": "Ship"
     },
     {
