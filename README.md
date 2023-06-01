@@ -32,7 +32,7 @@ Available languages: 🇬🇧 🇩🇪
 
 ## Contribute
 
-If something doesn't work, or you miss a feature, feel free to open a new issue on the [GitHub Page of this mod](https://github.com/Nordmole/AlexMustacular/issues). I prefer the GitHub Page but if you really don't want to use it feel free to use the [Issue Page here on NexusMods](https://www.nexusmods.com/stardewvalley/mods/16890?tab=bugs).
+If something doesn't work, or you miss a feature, feel free to open a new issue on the [GitHub Page of this mod](https://github.com/Nordmole/Millnificent/issues). I prefer the GitHub Page but if you really don't want to use it feel free to use the [Issue Page here on NexusMods](https://www.nexusmods.com/stardewvalley/mods/16890?tab=bugs).
 
 ### DIY - Do it yourself 🖌️🎨
 
