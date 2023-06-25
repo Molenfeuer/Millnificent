@@ -1,0 +1,5 @@
+{
+  "mill.name": "Molino de viento holandés",
+  "mill.description": "Un histórico molino holandés que permite moler trigo, nabos y arroz",
+  "mill.message.invalid_item": "No se puede moler"
+}
