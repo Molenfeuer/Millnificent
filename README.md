@@ -4,7 +4,7 @@ Adds an alternate building that looks more like a mill than the existing one
 
 ## Install
 
-1. Download the newest version of this mod from NexusMods or the GitHub [release page](https://github.com/Nordmole/Millnificent/releases)
+1. Download the newest version of this mod from [NexusMods](https://www.nexusmods.com/stardewvalley/mods/16890) or the GitHub [release page](https://github.com/Nordmole/Millnificent/releases)
 2. Extract the ZIP-File and put the folder into the mods folder of SMAPI (mostly located under "C:\Program Files (x86)\Steam\steamapps\common\Stardew Valley\Mods")
 
 ## Usage
