@@ -37,23 +37,23 @@
       "FramesPerRow": 4
     },
     {
-      "SourceRect": "117 0 18 20",
+      "SourceRect": "117 0 48 48",
       "DrawBehindBase": true,
       "DrawPosition": {
-        "X": 47,
-        "Y": 77
+        "X": 32,
+        "Y": 62
       }
     },
     {
-      "SourceRect": "117 0 18 20",
+      "SourceRect": "117 0 48 48",
       "DrawBehindBase": true,
       "DrawPosition": {
-        "X": 47,
-        "Y": 77
+        "X": 32,
+        "Y": 62
       },
       "FrameCount": 6,
       "FrameDuration": 190,
-      "FramesPerRow": 3,
+      "FramesPerRow": 2,
       "OnlyDrawIfChestHasContents": "InputBox"
     }
   ],
