@@ -24,7 +24,7 @@ I'm sorry, but Solid Foundations (the Framework used by Mill-nificent) will not 
 
 For those who absolutely want some options I will release a separate Content Patcher Mod in the future. Stay tuned!
 
-Available languages: 🇬🇧 🇩🇪
+Available languages: 🇬🇧 🇩🇪 🇪🇸
 
 ## Features
 
@@ -36,7 +36,9 @@ If something doesn't work, or you miss a feature, feel free to open a new issue 
 
 ### DIY - Do it yourself 🖌️🎨
 
-[Solid Foundations](https://www.nexusmods.com/stardewvalley/mods/12311) is a very powerful mod on many levels. One of its biggest advantages is its content pacher support. For those of you new to modding, this means you can easily create your own mod that overwrites some parts of Mill-nificent. For example the roof texture! Read [this guide](https://github.com/Floogen/AlternativeTextures/wiki/Content-Patcher-Integration) to understand how to do this! But please keep in mind that Mill-nificent also comes with alternative textures created by me (soon!)! Visit Robin's shop to see them :)
+[Solid Foundations](https://www.nexusmods.com/stardewvalley/mods/12311) is a very powerful mod in many ways. One of its biggest advantages is its support for [Alternative Textures](https://www.nexusmods.com/stardewvalley/mods/9246). For those of you new to modding, this means that you can easily create your own mod that overwrites some parts of Mill-nificent. For example, the roof texture! Read [this guide](https://github.com/Floogen/AlternativeTextures/wiki/Creating-a-Content-Pack) to understand how to do it!
+
+Some nice people and I have released [some fancy alternative styles for this mill](https://www.nexusmods.com/stardewvalley/mods/16931)! You can use [this mod](https://www.nexusmods.com/stardewvalley/mods/16931) as a base for your own modification of Mill-nificent!
 
 ## Credits
 
