@@ -22,7 +22,7 @@ You can buy this Mill in Robins [Carpenter's Shop](https://stardewvalleywiki.com
 
 I'm sorry, but Solid Foundations (the Framework used by Mill-nificent) will not support configuration options in the foreseeable future. I hope the maintainer will add this functionality someday.
 
-For those who absolutely want some options I will release a separate Content Patcher Mod in the future. Stay tuned!
+For those who want some alternative sprites, a separate mod called [Millnificent Collab](https://www.nexusmods.com/stardewvalley/mods/16931) has been released.
 
 Available languages: 🇬🇧 🇩🇪 🇪🇸
 
