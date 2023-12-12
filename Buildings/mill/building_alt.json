@@ -1,0 +1,154 @@
+{
+  "Name": "mill.name",
+  "Description": "mill.description",
+  "Size": {
+    "X": 7,
+    "Y": 2
+  },
+  "Id": "Nordmole.Millnificent.Mill",
+  "SourceRect": "0 0 112 144",
+  "BuildCost": 2500,
+  "BuildDays": 2,
+  "BuildMaterials": [
+    {
+      "ItemID": 388,
+      "Amount": 150
+    },
+    {
+      "ItemID": 390,
+      "Amount": 50
+    },
+    {
+      "ItemID": 428,
+      "Amount": 4
+    }
+  ],
+  "CollisionMap": "OOXXXOO\nOOXXXXO",
+  "DrawShadow": false,
+  "DrawLayers": [
+    {
+      "SourceRect": "0 149 112 112",
+      "DrawPosition": {
+        "X": 0,
+        "Y": 0
+      },
+      "FrameCount": 18,
+      "FrameDuration": 45,
+      "FramesPerRow": 4
+    },
+    {
+      "SourceRect": "213 0 48 48",
+      "DrawBehindBase": true,
+      "DrawPosition": {
+        "X": 32,
+        "Y": 62
+      }
+    },
+    {
+      "SourceRect": "117 0 48 48",
+      "DrawBehindBase": true,
+      "DrawPosition": {
+        "X": 32,
+        "Y": 62
+      },
+      "FrameCount": 6,
+      "FrameDuration": 190,
+      "FramesPerRow": 2,
+      "OnlyDrawIfChestHasContents": "InputBox"
+    }
+  ],
+  "ActionTiles": [
+    {
+      "Tile": {
+        "X": 3,
+        "Y": 1
+      },
+      "Action": "BuildingChest InputBox"
+    },
+    {
+      "Tile": {
+        "X": 5,
+        "Y": 1
+      },
+      "Action": "BuildingChest OutputBox"
+    }
+  ],
+  "Chests": [
+    {
+      "Name": "InputBox",
+      "Type": "Chest",
+      "DisplayTile": "-1, -1",
+      "DisplayHeight": 0.0,
+      "InvalidItemMessage": "mill.message.invalid_item",
+      "Sound": "Ship"
+    },
+    {
+      "Name": "OutputBox",
+      "Type": "Collect",
+      "ChestFullMessage": null,
+      "DisplayTile": "5, 1.12",
+      "DisplayHeight": 1.5,
+      "InvalidItemMessage": null,
+      "InvalidCountMessage": null,
+      "Sound": "Shwip"
+    }
+  ],
+  "ItemConversions": [
+    {
+      "RequiredTags": [
+        "id_o_262"
+      ],
+      "SourceChest": "InputBox",
+      "DestinationChest": "OutputBox",
+      "ProducedItems": [
+        {
+          "ItemID": "246",
+          "MinCount": 1,
+          "MaxCount": 1
+        }
+      ],
+      "RequiredCount": 1,
+      "MaxDailyConversions": -1
+    },
+    {
+      "RequiredTags": [
+        "id_o_284"
+      ],
+      "SourceChest": "InputBox",
+      "DestinationChest": "OutputBox",
+      "ProducedItems": [
+        {
+          "ItemID": "245",
+          "MinCount": 3,
+          "MaxCount": 3
+        }
+      ],
+      "RequiredCount": 1,
+      "MaxDailyConversions": -1
+    },
+    {
+      "RequiredTags": [
+        "id_o_271"
+      ],
+      "SourceChest": "InputBox",
+      "DestinationChest": "OutputBox",
+      "ProducedItems": [
+        {
+          "ItemID": "423",
+          "MinCount": 1,
+          "MaxCount": 1
+        }
+      ],
+      "RequiredCount": 1,
+      "MaxDailyConversions": -1
+    }
+  ],
+  "PaintMasks": [
+    {
+      "Name": "Building"
+    },
+    {
+      "Name": "Roof"
+    }
+  ]
+}

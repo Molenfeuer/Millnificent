@@ -1,5 +1,7 @@
 {
   "mill.name": "Mill (Smock mill)",
   "mill.description": "A historic Dutch mill that allows you to grind wheat, beets and rice",
-  "mill.message.invalid_item": "Can't be milled"
+  "mill.message.invalid_item": "Can't be milled",
+  "mill.paint_mask.building": "Building",
+  "mill.paint_mask.roof": "Roof"
 }

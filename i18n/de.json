@@ -1,5 +1,7 @@
 {
   "mill.name": "Holländerwindmühle",
   "mill.description": "Eine historische niederländische Mühle, die es ermöglicht, Weizen sowie Rüben und Reis zu mahlen",
-  "mill.message.invalid_item": "Kann nicht gemahlen werden"
+  "mill.message.invalid_item": "Kann nicht gemahlen werden",
+  "mill.paint_mask.building": "Gebäude",
+  "mill.paint_mask.roof": "Dach"
 }
