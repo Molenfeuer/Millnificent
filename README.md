@@ -45,19 +45,8 @@ Some nice people and I have released [some fancy alternative styles for this mil
 - First of all thanks to [ConcernedApe](https://twitter.com/concernedape) for developing Stardew Valley and the Sprites my own Textures based on!
 - I also want to give a special thanks to [PeacefulEnd/Floogen](https://www.nexusmods.com/stardewvalley/users/4112039) for the really great mod [Solid Foundations](https://www.nexusmods.com/stardewvalley/mods/12311). Without his mod Mill-nificent wouldn't exist!
 - Furthermore, a huuuuge thanks for [Pathoschild](https://www.nexusmods.com/stardewvalley/users/1552317) to develop [SMAPI](https://www.nexusmods.com/stardewvalley/mods/2400). This modification use this technologie to run!
-- I am very happy that some people helped me with the translation to make the mod understandable for everyone. I would like to thank [ConfusedWolf](https://www.nexusmods.com/stardewvalley/users/15421504) for the English part
+- I am very happy that some people helped me with the translation to make the mod understandable for everyone. I would like to thank [ConfusedWolf](https://www.nexusmods.com/stardewvalley/users/15421504) for the English part. Also, a huge thanks to Lea for the Spanish, and a lovely *merci* to [mouahrara](https://www.nexusmods.com/stardewvalley/users/190812873) for the French part
 - Last but not least, thanks to the official Stardew Valley Discord server for helping me with the textures
-
-## Special
-
-I'm not a windmill expert or something like that but they are a significant part of my childhoods region. Its pretty normal for me that every village has a big windmill near the city center. I think I know some really fancy mills and if you have time, stay a while and have a look at these beautiful mills:
-
-- [Kinderdijk windmills](https://en.wikipedia.org/wiki/Kinderdijk_windmills)
-- [Hüven Mill](https://de.wikipedia.org/wiki/H%C3%BCvener_M%C3%BChle)
-- [Molden Edens](https://www.visitwadden.nl/nl/bezoeken/activiteiten-overzicht/2559468064/molen-edens)
-- [Herdentorswallmühle](https://de.wikipedia.org/wiki/Herdentorswallm%C3%BChle)
-- [Meyers Mühle](https://goo.gl/maps/jctGxKaUJ7woY6Xq7)
-- [Mit-Mach-Mühle](https://youtu.be/9gRD8fYXuMU)
 
 ## Other
 
