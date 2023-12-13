@@ -142,5 +142,13 @@
       "RequiredCount": 1,
       "MaxDailyConversions": -1
     }
+  ],
+  "PaintMasks": [
+    {
+      "Name": "Building"
+    },
+    {
+      "Name": "Roof"
+    }
   ]
 }
