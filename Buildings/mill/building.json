@@ -150,5 +150,31 @@
     {
       "Name": "Roof"
     }
+  ],
+  "Skins": [
+    {
+      "ID": "KatyDTK.ShyKitty",
+      "Name": "Shy Kitty (by KatyDTK)",
+      "Description": "mill.description",
+      "Texture": "texture_1"
+    },
+    {
+      "ID": "KatyDTK.SleepyKitty",
+      "Name": "Sleepy Kitty (by KatyDTK)",
+      "Description": "mill.description",
+      "Texture": "texture_2"
+    },
+    {
+      "ID": "Molenfeuer.PinkPrincess",
+      "Name": "Pink Princess (by Molenfeuer)",
+      "Description": "mill.description",
+      "Texture": "texture_3"
+    },
+    {
+      "ID": "Molenfeuer.Kupfi",
+      "Name": "Kupfi (by Molenfeuer)",
+      "Description": "mill.description",
+      "Texture": "texture_4"
+    }
   ]
 }
