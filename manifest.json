@@ -1,9 +1,9 @@
 {
   "Name": "Mill-nificent (Better Mill)",
-  "Author": "Nordmole",
-  "Version": "1.2.1",
+  "Author": "Molenfeuer",
+  "Version": "1.3.0",
   "Description": "Adds an alternate building that looks more like a mill than the existing one",
-  "UniqueID": "Nordmole.Millnificent",
+  "UniqueID": "Molenfeuer.Millnificent",
   "UpdateKeys": [ "Nexus:16890" ],
   "ContentPackFor": {
     "UniqueID": "PeacefulEnd.SolidFoundations",
