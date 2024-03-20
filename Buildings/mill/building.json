@@ -49,19 +49,6 @@
     },
     {
       "SourceRect": {
-        "X": 213,
-        "Y": 0,
-        "Width": 48,
-        "Height": 48
-      },
-      "DrawPosition": {
-        "X": 32,
-        "Y": 62
-      },
-      "SortTileOffset": 1
-    },
-    {
-      "SourceRect": {
         "X": 117,
         "Y": 0,
         "Width": 48,
