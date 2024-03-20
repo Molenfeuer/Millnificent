@@ -44,7 +44,8 @@
       },
       "FrameCount": 18,
       "FrameDuration": 45,
-      "FramesPerRow": 4
+      "FramesPerRow": 4,
+      "SortTileOffset": -1
     },
     {
       "SourceRect": {
@@ -53,11 +54,11 @@
         "Width": 48,
         "Height": 48
       },
-      "DrawBehindBase": true,
       "DrawPosition": {
         "X": 32,
         "Y": 62
-      }
+      },
+      "SortTileOffset": 1
     },
     {
       "SourceRect": {
@@ -66,7 +67,6 @@
         "Width": 48,
         "Height": 48
       },
-      "DrawBehindBase": true,
       "DrawPosition": {
         "X": 32,
         "Y": 62
