@@ -20,11 +20,11 @@ You can buy this Mill in Robins [Carpenter's Shop](https://stardewvalleywiki.com
 
 ## Options
 
-I'm sorry, but Solid Foundations (the Framework used by Mill-nificent) will not support configuration options in the foreseeable future. I hope the maintainer will add this functionality someday.
+- 🎨🖌️ You can change the color of the mill as you wish.
 
-Available languages: 🇬🇧 🇩🇪 🇪🇸 🇫🇷
+- For those who want some alternative sprites, I have included skins created by other great artists and myself! If you've created your own skin for Millnificent and want to share it, please let me know!
 
-For those who want some alternative sprites, I have included skins created by other great artists and myself! If you've created your own skin for Millnificent and want to share it, please let me know!
+- Available languages: 🇬🇧 🇩🇪 🇪🇸 🇫🇷
 
 ## Features
 
