@@ -20,11 +20,11 @@ You can buy this Mill in Robins [Carpenter's Shop](https://stardewvalleywiki.com
 
 ## Options
 
-I'm sorry, but Solid Foundations (the Framework used by Mill-nificent) will not support configuration options in the foreseeable future. I hope the maintainer will add this functionality someday.
+- 🎨🖌️ You can change the color of the mill as you wish.
 
-For those who want some alternative sprites, a separate mod called [Millnificent Collab](https://www.nexusmods.com/stardewvalley/mods/16931) has been released.
+- For those who want some alternative sprites, I have included skins created by other great artists and myself! If you've created your own skin for Millnificent and want to share it, please let me know!
 
-Available languages: 🇬🇧 🇩🇪 🇪🇸 🇫🇷
+- Available languages: 🇬🇧 🇩🇪 🇪🇸 🇫🇷
 
 ## Features
 
@@ -33,12 +33,6 @@ Available languages: 🇬🇧 🇩🇪 🇪🇸 🇫🇷
 ## Contribute
 
 If something doesn't work, or you miss a feature, feel free to open a new issue on the [GitHub Page of this mod](https://github.com/Molenfeuer/Millnificent/issues). I prefer the GitHub Page but if you really don't want to use it feel free to use the [Issue Page here on NexusMods](https://www.nexusmods.com/stardewvalley/mods/16890?tab=bugs).
-
-### DIY - Do it yourself 🖌️🎨
-
-[Solid Foundations](https://www.nexusmods.com/stardewvalley/mods/12311) is a very powerful mod in many ways. One of its biggest advantages is its support for [Alternative Textures](https://www.nexusmods.com/stardewvalley/mods/9246). For those of you new to modding, this means that you can easily create your own mod that overwrites some parts of Mill-nificent. For example, the roof texture! Read [this guide](https://github.com/Floogen/AlternativeTextures/wiki/Creating-a-Content-Pack) to understand how to do it!
-
-Some nice people and I have released [some fancy alternative styles for this mill](https://www.nexusmods.com/stardewvalley/mods/16931)! You can use [this mod](https://www.nexusmods.com/stardewvalley/mods/16931) as a base for your own modification of Mill-nificent!
 
 ## Credits
 

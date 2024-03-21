@@ -5,8 +5,13 @@
     "X": 7,
     "Y": 2
   },
-  "Id": "Nordmole.Millnificent.Mill",
-  "SourceRect": "0 0 112 144",
+  "Id": "Molenfeuer.Millnificent.Mill",
+  "SourceRect": {
+    "X": 0,
+    "Y": 0,
+    "Width": 112,
+    "Height": 144
+  },
   "BuildCost": 2500,
   "BuildDays": 2,
   "BuildMaterials": [
@@ -27,26 +32,28 @@
   "DrawShadow": false,
   "DrawLayers": [
     {
-      "SourceRect": "0 149 112 112",
+      "SourceRect": {
+        "X": 0,
+        "Y": 149,
+        "Width": 112,
+        "Height": 112
+      },
       "DrawPosition": {
         "X": 0,
         "Y": 0
       },
       "FrameCount": 18,
       "FrameDuration": 45,
-      "FramesPerRow": 4
+      "FramesPerRow": 4,
+      "SortTileOffset": -1
     },
     {
-      "SourceRect": "213 0 48 48",
-      "DrawBehindBase": true,
-      "DrawPosition": {
-        "X": 32,
-        "Y": 62
-      }
-    },
-    {
-      "SourceRect": "117 0 48 48",
-      "DrawBehindBase": true,
+      "SourceRect": {
+        "X": 117,
+        "Y": 0,
+        "Width": 48,
+        "Height": 48
+      },
       "DrawPosition": {
         "X": 32,
         "Y": 62
@@ -141,6 +148,40 @@
       ],
       "RequiredCount": 1,
       "MaxDailyConversions": -1
+    }
+  ],
+  "PaintMasks": [
+    {
+      "Name": "Building"
+    },
+    {
+      "Name": "Roof"
+    }
+  ],
+  "Skins": [
+    {
+      "ID": "KatyDTK.ShyKitty",
+      "Name": "Shy Kitty (by KatyDTK)",
+      "Description": "mill.description",
+      "Texture": "texture_1"
+    },
+    {
+      "ID": "KatyDTK.SleepyKitty",
+      "Name": "Sleepy Kitty (by KatyDTK)",
+      "Description": "mill.description",
+      "Texture": "texture_2"
+    },
+    {
+      "ID": "Molenfeuer.PinkPrincess",
+      "Name": "Pink Princess (by Molenfeuer)",
+      "Description": "mill.description",
+      "Texture": "texture_3"
+    },
+    {
+      "ID": "Molenfeuer.Kupfi",
+      "Name": "Kupfi (by Molenfeuer)",
+      "Description": "mill.description",
+      "Texture": "texture_4"
     }
   ]
 }
