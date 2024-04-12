@@ -6,7 +6,7 @@
   "UniqueID": "Molenfeuer.Millnificent",
   "UpdateKeys": [ "Nexus:16890" ],
   "ContentPackFor": {
-    "UniqueID": "PeacefulEnd.SolidFoundations",
+    "UniqueID": "Pathoschild.ContentPatcher",
     "MinimumVersion": "2.0.0"
   }
 }
