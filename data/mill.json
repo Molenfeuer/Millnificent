@@ -10,8 +10,8 @@
       "Target": "Data/Buildings",
       "Entries": {
         "{{ModId}}_Mill": {
-          "Name": "mill.name",
-          "Description": "mill.description",
+          "Name": "{{i18n: mill.name}}",
+          "Description": "{{i18n: mill.description}}",
           "Texture": "Mods\\{{ModId}}\\Mill",
           "Size": {
             "X": 7,
@@ -93,7 +93,7 @@
               "Type": "Chest",
               "DisplayTile": "-1, -1",
               "DisplayHeight": 0.0,
-              "InvalidItemMessage": "mill.message.invalid_item",
+              "InvalidItemMessage": "{{i18n: mill.message.invalid_item}}",
               "Sound": "Ship"
             },
             {
@@ -161,25 +161,25 @@
             {
               "ID": "{{ModId}}_Mill.Skin_KatyDTK.ShyKitty",
               "Name": "Shy Kitty (by KatyDTK)",
-              "Description": "mill.description",
+              "Description": "{{i18n: mill.description}}",
               "Texture": "{{InternalAssetKey: assets/mill_shy-kitty.png}}"
             },
             {
               "ID": "{{ModId}}_Mill.Skin_KatyDTK.SleepyKitty",
               "Name": "Sleepy Kitty (by KatyDTK)",
-              "Description": "mill.description",
+              "Description": "{{i18n: mill.description}}",
               "Texture": "{{InternalAssetKey: assets/mill_sleepy-kitty.png}}"
             },
             {
               "ID": "{{ModId}}_Mill.Skin_Molenfeuer.PinkPrincess",
               "Name": "Pink Princess (by Molenfeuer)",
-              "Description": "mill.description",
+              "Description": "{{i18n: mill.description}}",
               "Texture": "{{InternalAssetKey: assets/mill_pink-princess.png}}"
             },
             {
               "ID": "{{ModId}}_Mill.Skin_Molenfeuer.Kupfi",
               "Name": "Kupfi (by Molenfeuer)",
-              "Description": "mill.description",
+              "Description": "{{i18n: mill.description}}",
               "Texture": "{{InternalAssetKey: assets/mill_kupfi.png}}"
             }
           ]
