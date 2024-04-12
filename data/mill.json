@@ -6,6 +6,11 @@
       "FromFile": "assets/mill.png"
     },
     {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Mill_PaintMask",
+      "FromFile": "assets/mill_paintmask.png"
+    },
+    {
       "Action": "EditData",
       "Target": "Data/Buildings",
       "Entries": {
@@ -184,6 +189,13 @@
             }
           ]
         }
+      }
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/PaintData",
+      "Entries": {
+        "{{ModId}}_Mill": "Building/-50 50/Roof/-25 50"
       }
     }
   ]
