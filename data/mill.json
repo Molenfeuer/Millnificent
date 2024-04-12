@@ -19,14 +19,14 @@
           "Description": "{{i18n: mill.description}}",
           "Texture": "Mods\\{{ModId}}\\Mill",
           "Size": {
-            "X": 7,
+            "X": 4,
             "Y": 2
           },
           "SourceRect": {
-            "X": 0,
-            "Y": 0,
-            "Width": 112,
-            "Height": 144
+            "X": 32,
+            "Y": 32,
+            "Width": 64,
+            "Height": 112
           },
           "BuildCost": 2500,
           "BuildDays": 2,
@@ -44,7 +44,7 @@
               "Amount": 4
             }
           ],
-          "CollisionMap": "OOXXXOO\nOOXXXXO",
+          "CollisionMap": "XXXO\nXXXX",
           "DrawShadow": false,
           "DrawLayers": [
             {
@@ -55,7 +55,7 @@
                 "Width": 112,
                 "Height": 112
               },
-              "DrawPosition": "0, 0",
+              "DrawPosition": "-32, -32",
               "FrameCount": 18,
               "FrameDuration": 45,
               "FramesPerRow": 4,
@@ -69,7 +69,7 @@
                 "Width": 48,
                 "Height": 48
               },
-              "DrawPosition": "32, 62",
+              "DrawPosition": "0, 30",
               "FrameCount": 6,
               "FrameDuration": 190,
               "FramesPerRow": 2,
@@ -79,14 +79,14 @@
           "ActionTiles": [
             {
               "Tile": {
-                "X": 3,
+                "X": 1,
                 "Y": 1
               },
               "Action": "BuildingChest {{ModId}}_Mill.InputBox"
             },
             {
               "Tile": {
-                "X": 5,
+                "X": 3,
                 "Y": 1
               },
               "Action": "BuildingChest {{ModId}}_Mill.OutputBox"
@@ -96,8 +96,6 @@
             {
               "ID": "{{ModId}}_Mill.InputBox",
               "Type": "Chest",
-              "DisplayTile": "-1, -1",
-              "DisplayHeight": 0.0,
               "InvalidItemMessage": "{{i18n: mill.message.invalid_item}}",
               "Sound": "Ship"
             },
@@ -105,7 +103,7 @@
               "ID": "{{ModId}}_Mill.OutputBox",
               "Type": "Collect",
               "ChestFullMessage": null,
-              "DisplayTile": "5, 1.12",
+              "DisplayTile": "3, 1.12",
               "DisplayHeight": 1.5,
               "InvalidItemMessage": null,
               "InvalidCountMessage": null,
