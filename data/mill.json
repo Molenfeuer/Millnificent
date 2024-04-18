@@ -24,9 +24,9 @@
           },
           "SourceRect": {
             "X": 32,
-            "Y": 32,
+            "Y": 0,
             "Width": 64,
-            "Height": 112
+            "Height": 144
           },
           "BuildCost": 2500,
           "BuildDays": 2,
@@ -55,7 +55,7 @@
                 "Width": 112,
                 "Height": 112
               },
-              "DrawPosition": "-32, -32",
+              "DrawPosition": "-32, 0",
               "FrameCount": 18,
               "FrameDuration": 45,
               "FramesPerRow": 4,
@@ -69,11 +69,31 @@
                 "Width": 48,
                 "Height": 48
               },
-              "DrawPosition": "0, 30",
+              "DrawPosition": "0, 62",
               "FrameCount": 6,
               "FrameDuration": 190,
               "FramesPerRow": 2,
               "OnlyDrawIfChestHasContents": "{{ModId}}_Mill.InputBox"
+            },
+            {
+              "ID": "{{ModId}}_Mill.ExtraLayerLeft",
+              "SourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 144
+              },
+              "DrawPosition": "-32, 0"
+            },
+            {
+              "ID": "{{ModId}}_Mill.ExtraLayerRight",
+              "SourceRect": {
+                "X": 96,
+                "Y": 0,
+                "Width": 16,
+                "Height": 144
+              },
+              "DrawPosition": "64, 0"
             }
           ],
           "ActionTiles": [
