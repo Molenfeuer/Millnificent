@@ -16,15 +16,13 @@ You can buy this Mill in Robins [Carpenter's Shop](https://stardewvalleywiki.com
 - 4x Cloth 🧵
 - 2.500g 🪙
 
-*Please note that during the placing of the mill it might seem that the mill is 7x2 tiles big. That is an limitation by the game (I guess). After Robin constructed your mill its area is only 3x2 tiles big (same as the original mill)*.
-
 ## Options
 
 - 🎨🖌️ You can change the color of the mill as you wish.
 
 - For those who want some alternative sprites, I have included skins created by other great artists and myself! If you've created your own skin for Millnificent and want to share it, please let me know!
 
-- Available languages: 🇬🇧 🇩🇪 🇪🇸 🇫🇷
+- Available languages: 🇬🇧 🇩🇪 🇪🇸 🇫🇷 🇧🇷
 
 ## Features
 
@@ -37,9 +35,10 @@ If something doesn't work, or you miss a feature, feel free to open a new issue 
 ## Credits
 
 - First of all thanks to [ConcernedApe](https://twitter.com/concernedape) for developing Stardew Valley and the Sprites my own Textures based on!
-- I also want to give a special thanks to [PeacefulEnd/Floogen](https://www.nexusmods.com/stardewvalley/users/4112039) for the really great mod [Solid Foundations](https://www.nexusmods.com/stardewvalley/mods/12311). Without his mod Mill-nificent wouldn't exist!
+- Thanks to [KatyDTK](https://www.nexusmods.com/stardewvalley/users/90989198) for creating two beautiful skins for this mod
+- I also want to give a special thanks to [PeacefulEnd/Floogen](https://www.nexusmods.com/stardewvalley/users/4112039) for the really great mod [Solid Foundations](https://www.nexusmods.com/stardewvalley/mods/12311). Without his mod Mill-nificent wouldn't exist (at least before 1.6... This is a CP mod now. But I'm still thankful ^^)
 - Furthermore, a huuuuge thanks for [Pathoschild](https://www.nexusmods.com/stardewvalley/users/1552317) to develop [SMAPI](https://www.nexusmods.com/stardewvalley/mods/2400). This modification use this technologie to run!
-- I am very happy that some people helped me with the translation to make the mod understandable for everyone. I would like to thank [ConfusedWolf](https://www.nexusmods.com/stardewvalley/users/15421504) for the English part. Also, a huge thanks to Lea for the Spanish, and a lovely *merci* to [mouahrara](https://www.nexusmods.com/stardewvalley/users/190812873) for the French part
+- I am delighted that some people helped me with the translation to make the mod understandable for everyone. I would like to thank [ConfusedWolf](https://www.nexusmods.com/stardewvalley/users/15421504) (English), Lea (Spanish), [mouahrara](https://www.nexusmods.com/stardewvalley/users/190812873) (French) and [Vlgor](https://www.nexusmods.com/users/132025663) (Portuguese)
 - Last but not least, thanks to the official Stardew Valley Discord server for helping me with the textures
 
 ## Other
