@@ -45,7 +45,7 @@
             }
           ],
           "CollisionMap": "XXXO\nXXXX",
-          "DrawShadow": false,
+          "DrawShadow": true,
           "DrawLayers": [
             {
               "ID": "{{ModId}}_Mill.Sail",
