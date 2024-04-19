@@ -1,0 +1,7 @@
+{
+  "mill.name": "Moinho Torre de Vento",
+  "mill.description": "Um moinho holandês histórico que permite moer trigo, beterraba e arroz",
+  "mill.message.invalid_item": "Não pode ser moído",
+  "mill.paint_mask.building": "Construção",
+  "mill.paint_mask.roof": "Telhado"
+}

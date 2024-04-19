@@ -1,0 +1,228 @@
+{
+  "Changes": [
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Mill",
+      "FromFile": "assets/mill.png",
+      "LogName": "Mill texture load"
+    },
+    {
+      "Action": "Load",
+      "Target": "Mods/{{ModId}}/Mill_PaintMask",
+      "FromFile": "assets/mill_paintmask.png",
+      "LogName": "Mill paintmask load"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/Buildings",
+      "Entries": {
+        "{{ModId}}_Mill": {
+          "Name": "{{i18n: mill.name}}",
+          "Description": "{{i18n: mill.description}}",
+          "Texture": "Mods\\{{ModId}}\\Mill",
+          "Size": {
+            "X": 4,
+            "Y": 2
+          },
+          "SourceRect": {
+            "X": 32,
+            "Y": 0,
+            "Width": 64,
+            "Height": 144
+          },
+          "BuildCost": 2500,
+          "BuildDays": 2,
+          "BuildMaterials": [
+            {
+              "ItemID": 388,
+              "Amount": 150
+            },
+            {
+              "ItemID": 390,
+              "Amount": 50
+            },
+            {
+              "ItemID": 428,
+              "Amount": 4
+            }
+          ],
+          "BuildMenuDrawOffset": {
+            "X": 32,
+            "Y": -32
+          },
+          "CollisionMap": "XXXO\nXXXX",
+          "DrawShadow": true,
+          "DrawLayers": [
+            {
+              "ID": "{{ModId}}_Mill.Sail",
+              "SourceRect": {
+                "X": 0,
+                "Y": 149,
+                "Width": 112,
+                "Height": 112
+              },
+              "DrawPosition": "-32, 0",
+              "FrameCount": 18,
+              "FrameDuration": 45,
+              "FramesPerRow": 4,
+              "SortTileOffset": -1
+            },
+            {
+              "ID": "{{ModId}}_Mill.Window",
+              "SourceRect": {
+                "X": 117,
+                "Y": 0,
+                "Width": 48,
+                "Height": 48
+              },
+              "DrawPosition": "0, 62",
+              "FrameCount": 6,
+              "FrameDuration": 190,
+              "FramesPerRow": 2,
+              "OnlyDrawIfChestHasContents": "{{ModId}}_Mill.InputBox"
+            },
+            {
+              "ID": "{{ModId}}_Mill.ExtraLayerLeft",
+              "SourceRect": {
+                "X": 0,
+                "Y": 0,
+                "Width": 32,
+                "Height": 144
+              },
+              "DrawPosition": "-32, 0"
+            },
+            {
+              "ID": "{{ModId}}_Mill.ExtraLayerRight",
+              "SourceRect": {
+                "X": 96,
+                "Y": 0,
+                "Width": 16,
+                "Height": 144
+              },
+              "DrawPosition": "64, 0"
+            }
+          ],
+          "ActionTiles": [
+            {
+              "Tile": {
+                "X": 1,
+                "Y": 1
+              },
+              "Action": "BuildingChest {{ModId}}_Mill.InputBox"
+            },
+            {
+              "Tile": {
+                "X": 3,
+                "Y": 1
+              },
+              "Action": "BuildingChest {{ModId}}_Mill.OutputBox"
+            }
+          ],
+          "Chests": [
+            {
+              "ID": "{{ModId}}_Mill.InputBox",
+              "Type": "Chest",
+              "InvalidItemMessage": "{{i18n: mill.message.invalid_item}}",
+              "Sound": "Ship"
+            },
+            {
+              "ID": "{{ModId}}_Mill.OutputBox",
+              "Type": "Collect",
+              "ChestFullMessage": null,
+              "DisplayTile": "3, 1.12",
+              "DisplayHeight": 1.5,
+              "InvalidItemMessage": null,
+              "InvalidCountMessage": null,
+              "Sound": "Shwip"
+            }
+          ],
+          "ItemConversions": [
+            {
+              "RequiredTags": [
+                "id_o_262"
+              ],
+              "SourceChest": "{{ModId}}_Mill.InputBox",
+              "DestinationChest": "{{ModId}}_Mill.OutputBox",
+              "ProducedItems": [
+                {
+                  "ItemID": "246",
+                  "MinCount": 1,
+                  "MaxCount": 1
+                }
+              ],
+              "RequiredCount": 1,
+              "MaxDailyConversions": -1
+            },
+            {
+              "RequiredTags": [
+                "id_o_284"
+              ],
+              "SourceChest": "{{ModId}}_Mill.InputBox",
+              "DestinationChest": "{{ModId}}_Mill.OutputBox",
+              "ProducedItems": [
+                {
+                  "ItemID": "245",
+                  "MinCount": 3,
+                  "MaxCount": 3
+                }
+              ],
+              "RequiredCount": 1,
+              "MaxDailyConversions": -1
+            },
+            {
+              "RequiredTags": [
+                "id_o_271"
+              ],
+              "SourceChest": "{{ModId}}_Mill.InputBox",
+              "DestinationChest": "{{ModId}}_Mill.OutputBox",
+              "ProducedItems": [
+                {
+                  "ItemID": "423",
+                  "MinCount": 1,
+                  "MaxCount": 1
+                }
+              ],
+              "RequiredCount": 1,
+              "MaxDailyConversions": -1
+            }
+          ],
+          "Skins": [
+            {
+              "ID": "{{ModId}}_Mill.Skin_KatyDTK.ShyKitty",
+              "Name": "Shy Kitty (by KatyDTK)",
+              "Description": "{{i18n: mill.description}}",
+              "Texture": "{{InternalAssetKey: assets/mill_shy-kitty.png}}"
+            },
+            {
+              "ID": "{{ModId}}_Mill.Skin_KatyDTK.SleepyKitty",
+              "Name": "Sleepy Kitty (by KatyDTK)",
+              "Description": "{{i18n: mill.description}}",
+              "Texture": "{{InternalAssetKey: assets/mill_sleepy-kitty.png}}"
+            },
+            {
+              "ID": "{{ModId}}_Mill.Skin_Molenfeuer.PinkPrincess",
+              "Name": "Pink Princess (by Molenfeuer)",
+              "Description": "{{i18n: mill.description}}",
+              "Texture": "{{InternalAssetKey: assets/mill_pink-princess.png}}"
+            },
+            {
+              "ID": "{{ModId}}_Mill.Skin_Molenfeuer.Kupfi",
+              "Name": "Kupfi (by Molenfeuer)",
+              "Description": "{{i18n: mill.description}}",
+              "Texture": "{{InternalAssetKey: assets/mill_kupfi.png}}"
+            }
+          ]
+        }
+      },
+      "LogName": "Mill data definition"
+    },
+    {
+      "Action": "EditData",
+      "Target": "Data/PaintData",
+      "Entries": {
+        "{{ModId}}_Mill": "Building/-50 50/Roof/-25 50"
+      },
+      "LogName": "Mill paintmask definition"
+    }
+  ]
+}
