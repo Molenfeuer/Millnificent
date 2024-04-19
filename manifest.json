@@ -5,6 +5,7 @@
   "Description": "Adds an alternate building that looks more like a mill than the existing one",
   "UniqueID": "Molenfeuer.Millnificent",
   "UpdateKeys": [ "Nexus:16890" ],
+  "MinimumApiVersion": "4.0.0",
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
     "MinimumVersion": "2.0.0"
