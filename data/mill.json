@@ -44,6 +44,10 @@
               "Amount": 4
             }
           ],
+          "BuildMenuDrawOffset": {
+            "X": 32,
+            "Y": -32
+          },
           "CollisionMap": "XXXO\nXXXX",
           "DrawShadow": true,
           "DrawLayers": [
