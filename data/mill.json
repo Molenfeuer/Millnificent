@@ -3,12 +3,14 @@
     {
       "Action": "Load",
       "Target": "Mods/{{ModId}}/Mill",
-      "FromFile": "assets/mill.png"
+      "FromFile": "assets/mill.png",
+      "LogName": "Mill texture load"
     },
     {
       "Action": "Load",
       "Target": "Mods/{{ModId}}/Mill_PaintMask",
-      "FromFile": "assets/mill_paintmask.png"
+      "FromFile": "assets/mill_paintmask.png",
+      "LogName": "Mill paintmask load"
     },
     {
       "Action": "EditData",
@@ -211,14 +213,16 @@
             }
           ]
         }
-      }
+      },
+      "LogName": "Mill data definition"
     },
     {
       "Action": "EditData",
       "Target": "Data/PaintData",
       "Entries": {
         "{{ModId}}_Mill": "Building/-50 50/Roof/-25 50"
-      }
+      },
+      "LogName": "Mill paintmask definition"
     }
   ]
 }
