@@ -146,8 +146,8 @@
               "ProducedItems": [
                 {
                   "ItemID": "246",
-                  "MinCount": 1,
-                  "MaxCount": 1
+                  "MinStack": 1,
+                  "MaxStack": 1
                 }
               ],
               "RequiredCount": 1,
@@ -162,8 +162,8 @@
               "ProducedItems": [
                 {
                   "ItemID": "245",
-                  "MinCount": 3,
-                  "MaxCount": 3
+                  "MinStack": 3,
+                  "MaxStack": 3
                 }
               ],
               "RequiredCount": 1,
@@ -178,8 +178,8 @@
               "ProducedItems": [
                 {
                   "ItemID": "423",
-                  "MinCount": 1,
-                  "MaxCount": 1
+                  "MinStack": 1,
+                  "MaxStack": 1
                 }
               ],
               "RequiredCount": 1,
